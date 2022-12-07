@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Weather App</title>
+    <!-- CSS only -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="src/style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <form>
+        <input type="text" name="City" placeholder="Enter City" />
+        <button>Enter</button>
+        <button>°F</button>
+        <button>°C</button>
+      </form>
+      <div class="row">
+        <div class="col">
+          <h1>Cincinnati</h1>
+          <h2>Thursday October 6th</h2>
+          <h3>Currently <strong>74°F</strong></h3>
+          <p>Mostly Sunny</p>
+        </div>
+        <div class="col">:partly_sunny:</div>
+        <div class="col">
+          <p>
+            Percipitaion: 0%
+            <br />
+            Wind: 8 mph
+            <br />
+            Sunset: 7:12PM
+          </p>
+        </div>
+      </div>
+      <br />
+      <div class="forecast">
+        <div class="row">
+          <div class="col">
+            <small>Fri 10/07</small><br />:partly_sunny:<br /><strong
+              >62°F</strong
+            >
+          </div>
+          <div class="col">
+            <small>Sat 10/08</small><br />:partly_sunny:<br /><strong
+              >61°F</strong
+            >
+          </div>
+          <div class="col">
+            <small>Sun 10/09</small><br />:partly_sunny:<br /><strong
+              >66°F</strong
+            >
+          </div>
+          <div class="col">
+            <small>Mon 10/10</small><br />:sunny:<br /><strong>71°F</strong>
+          </div>
+          <div class="col">
+            <small>Tues 10/11</small><br />:sunny:<br /><strong>74°F</strong>
+          </div>
+        </div>
+      </div>
+      <br />
+      <p class="signature">Coded by Katie Kelly</p>
+    </div>
+    <script src="src/index.js"></script>
+  </body>
+</html>
